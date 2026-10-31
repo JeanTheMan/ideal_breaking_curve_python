@@ -32,6 +32,8 @@ for fc in friction_coefficients:
     x.append(front_force)
     y.append(rear_force)
 
+
+ax.plot(x, y)
 max_x = max(x)
 max_y = max(y)
 
